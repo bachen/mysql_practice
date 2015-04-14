@@ -10,4 +10,4 @@ ORDER BY total DESC
 LIMIT 10;
 */
 SELECT * FROM top10customers;
-#drop temporary table top10customers;
+drop temporary table top10customers;
