@@ -7,7 +7,7 @@ FROM payments p
 INNER JOIN customers c ON c.customerNumber = p.customerNumber
 GROUP BY p.customerNumber
 ORDER BY total DESC
-LIMIT 10;
+LIMIT 10;test1
 */
 SELECT * FROM top10customers;
 drop temporary table top10customers;
